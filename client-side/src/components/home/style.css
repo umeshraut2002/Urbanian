@@ -170,3 +170,134 @@ nav {
         gap: 10px;
     }
 }
+
+
+/* hero section  */
+
+
+
+.hero-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full-screen height */
+  width: 100vw; /* Full-screen width */
+  background-color: #101d42; /* Dark blue background */
+}
+
+.slide {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 90vh;
+  background-color: #ffffff; /* White background for slider */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  color: #101d42; /* Dark blue text */
+  text-align: left;
+}
+
+.content h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #ff0050; /* Bright pink button */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #cc0040;
+}
+
+.image-section {
+  flex: 1;
+  overflow: hidden;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire div */
+}
+
+
+
+
+/* 
+.hero-slider {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  overflow: hidden;
+  background-color: #ffffff; /* White for the slider background */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  color: #101d42; /* Dark blue text */
+  padding: 20px;
+  text-align: left;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff0050; /* Bright pink color for CTA */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #cc0040;
+}
+
+.slider-image {
+  max-width: 50%;
+  border-radius: 10px;
+} */
