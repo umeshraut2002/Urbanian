@@ -94,7 +94,7 @@ Urbanian is an ongoing project with plans for future growth, including additiona
 
 The fonts Uses Sans-serif fonts to enhance readability and provide a clean look:
 - Primary Font: Roboto, sans-serif
--Secod
+-Secodary Font: Monsterrat
 
 ## 📖 Usage
 
