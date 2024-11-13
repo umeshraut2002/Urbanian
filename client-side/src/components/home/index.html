@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fast Fashion E-commerce</title>
 
     <!-- Google Fonts and Icons -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle,shopping_cart" />
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -22,7 +22,8 @@
         <div class="container">
             <!-- Logo Section -->
             <div class="logo">
-                <img src="logo.png" alt="Logo"> <!-- Replace 'logo.png' with your logo path -->
+                <img src="logo.png" alt="Logo" />
+                <!-- Replace 'logo.png' with your logo path -->
             </div>
 
             <!-- Navigation Menu -->
@@ -34,11 +35,9 @@
 
             <!-- Search Bar -->
             <div class="search-bar">
-                <input type="text" placeholder="Search...">
+                <input type="text" placeholder="Search..." />
                 <button>Search</button>
             </div>
-
-
 
             <!-- Icons: Cart, Profile -->
             <div class="icons">
@@ -53,21 +52,44 @@
         </div>
     </header>
 
-    <section class="hero-slider">
-    <div class="slide">
-      <div class="content">
-        <h2>Last Chance</h2>
-        <h1>60% OFF</h1>
-        <button class="cta-button">Buy Now</button>
-      </div>
-      <img src="your-image.jpg" alt="Fashion Ad" class="slider-image">
+    <!-- hero section here -->
+    
+    <div class="slider-container">
+  <div class="slide">
+    <div class="slide-image">
+      <img src="/client-side/Assets/banners/WhatsApp Image 2024-11-13 at 13.51.45_a2f53465.jpg" alt="Product Image 1">
     </div>
-    
-  </section> -->
+    <div class="slide-content">
+      <h2>Exclusive Offer 1</h2>
+      <p>Discover the best deals on our latest products with 20% off today!</p>
+      <button class="shop-now-btn">Shop Now</button>
+    </div>
+  </div>
 
-    
+  <div class="slide">
+    <div class="slide-image">
+      <img src="/client-side/Assets/banners/WhatsApp Image 2024-11-13 at 15.28.38_9e455482.jpg" alt="Product Image 2">
+    </div>
+    <div class="slide-content">
+      <h2>Exclusive Offer 2</h2>
+      <p>Get 30% off on selected items. Limited time only!</p>
+      <button class="shop-now-btn">Shop Now</button>
+    </div>
+  </div>
 
-    <script src="script.js"></script>
+  <div class="slide">
+    <div class="slide-image">
+      <img src="/client-side/Assets/banners/WhatsApp Image 2024-11-13 at 15.28.38_9e455482.jpg" alt="Product Image 3">
+    </div>
+    <div class="slide-content">
+      <h2>Exclusive Offer 3</h2>
+      <p>Enjoy the new arrivals with exciting offers just for you!</p>
+      <button class="shop-now-btn">Shop Now</button>
+    </div>
+  </div>
+</div>
+
+    <script src="/client-side/src/components/home/index.js"></script>
 </body>
 
 </html>

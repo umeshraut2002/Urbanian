@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #002366; /* Dark blue */
+    background-color: #3333cc; /* Dark blue */
     color: white;
     padding: 20px;
     position: fixed;
@@ -174,130 +174,110 @@ nav {
 
 /* hero section  */
 
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
-.hero-slider {
+.slider-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100vh; /* Full-screen height */
-  width: 100vw; /* Full-screen width */
-  background-color: #101d42; /* Dark blue background */
+  justify-content: flex-start;
+  width: 300vw;  /* Adjusted to fit all slides horizontally */
+  height: 100vh;
+  position: relative;
+  background-color: #f0f4f8;
+  transition: transform 1s ease;
 }
 
 .slide {
   display: flex;
-  width: 90%;
-  max-width: 1200px;
-  height: 90vh;
-  background-color: #ffffff; /* White background for slider */
-  border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.slide-image {
+  width: 50%;
+  height: 100%;
   overflow: hidden;
 }
 
-.content {
-  flex: 1;
+.slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+.slide-image img:hover {
+  transform: scale(1.1);
+}
+
+.slide-content {
+  width: 50%;
+  padding: 50px;
+  color: #003366;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
-  color: #101d42; /* Dark blue text */
-  text-align: left;
+  align-items: flex-start;
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
 }
 
-.content h2 {
-  font-size: 2rem;
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-
-.content h1 {
-  font-size: 4rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.cta-button {
-  padding: 12px 25px;
-  font-size: 1rem;
-  background-color: #ff0050; /* Bright pink button */
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #cc0040;
-}
-
-.image-section {
-  flex: 1;
-  overflow: hidden;
-}
-
-.slider-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image covers the entire div */
-}
-
-
-
-
-/* 
-.hero-slider {
-  position: relative;
-  width: 80%;
-  max-width: 1000px;
-  overflow: hidden;
-  background-color: #ffffff; /* White for the slider background */
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.slide {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.content {
-  color: #101d42; /* Dark blue text */
-  padding: 20px;
-  text-align: left;
-}
-
-.content h2 {
-  font-size: 1.5rem;
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-
-.content h1 {
+.slide-content h2 {
   font-size: 3rem;
-  font-weight: bold;
+  color: #0066cc;
   margin-bottom: 20px;
+  animation: fadeInUp 1s ease forwards 0.2s;
 }
 
-.cta-button {
+.slide-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease forwards 0.4s;
+}
+
+.shop-now-btn {
+  font-size: 1.2rem;
   padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #ff0050; /* Bright pink color for CTA */
-  color: #ffffff;
+  color: #fff;
+  background-color: #1f1f7a;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s;
+  animation: fadeInUp 1s ease forwards 0.6s;
 }
 
-.cta-button:hover {
-  background-color: #cc0040;
+.shop-now-btn:hover {
+  background-color: #004999;
 }
 
-.slider-image {
-  max-width: 50%;
-  border-radius: 10px;
-} */
+/* Keyframes for text animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Initial fade-in for content */
+.slide-content.active {
+  opacity: 1;
+}
