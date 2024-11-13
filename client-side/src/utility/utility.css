@@ -69,3 +69,114 @@
   font-weight: 900;
   font-style: italic;
 }
+
+
+
+
+
+
+/* Basic Reset */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Header Styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+}
+
+/* Logo Styling */
+.logo img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #0056b3; /* Warm blue on hover */
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #0056b3;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #004099; /* Darker warm blue on hover */
+}
+
+/* Icons Styling */
+.icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cart, .profile {
+  position: relative;
+  cursor: pointer;
+  color: #333;
+  font-size: 20px;
+}
+
+/* Cart Count */
+.count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff6347;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 12px;
+}

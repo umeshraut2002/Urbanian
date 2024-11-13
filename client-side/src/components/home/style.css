@@ -1,100 +1,172 @@
-/* Basic Reset */
-
-
-
+/* Base Styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #f4f6fc;
+    color: #333;
+}
 
-/* Header Styling */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 30px;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e0e0e0;
-  color: #333;
+    background-color: #002366; /* Dark blue */
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Logo Styling */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .logo img {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
+    width: 140px;
+    transition: transform 0.3s ease;
 }
 
-/* Navigation Menu */
+.logo img:hover {
+    transform: scale(1.05);
+}
+
 nav {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 25px;
 }
 
 .nav-item {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-item:hover {
-  color: #0056b3; /* Warm blue on hover */
+    background-color: #003366;
+    color: #ffffff;
 }
 
 /* Search Bar */
+/* Search Bar Container */
 .search-bar {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px; /* Sets max width for larger screens */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Centers the search bar */
+    overflow: hidden;
 }
 
+/* Input Field Styling */
 .search-bar input {
-  width: 400px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px 0 0 5px;
-  outline: none;
+    flex: 1;
+    border: none;
+    padding: 12px 15px;
+    font-size: 1em;
+    outline: none;
 }
 
+/* Search Button Styling */
 .search-bar button {
-  padding: 8px 12px;
-  border: none;
-  background-color: #0056b3;
-  color: white;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    background-color: #004080; /* Blue background for the button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .search-bar button:hover {
-  background-color: #004099; /* Darker warm blue on hover */
+    background-color: #0059b3; /* Darker shade on hover */
 }
 
-/* Icons Styling */
+
+/* zsxdctfyghjkl*/
+
+ Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 15px;
+    width: 250px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Icons */
 .icons {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.material-symbols-outlined {
+    font-size: 28px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.material-symbols-outlined:hover {
+    transform: scale(1.1);
 }
 
 .cart, .profile {
-  position: relative;
-  cursor: pointer;
-  color: #333;
-  font-size: 20px;
+    position: relative;
 }
 
-/* Cart Count */
 .count {
-  position: absolute;
-  top: -5px;
-  right: -10px;
-  background-color: #ff6347;
-  color: white;
-  border-radius: 50%;
-  padding: 3px 6px;
-  font-size: 12px;
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color: #ff4136;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8em;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .search-bar {
+        width: 200px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav {
+        display: none; /* Hides navigation on mobile for simplicity */
+    }
+
+    .icons {
+        gap: 10px;
+    }
 }
