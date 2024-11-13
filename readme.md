@@ -77,20 +77,24 @@ Urbanian is an ongoing project with plans for future growth, including additiona
 
 ## 🌈 Color Palette
 
-| Color               | Hex        |
-|---------------------|------------|
-| Background Blue     | `#f0f4f8`  |
-| Primary Blue        | `#0066cc`  |
-| Hover Blue          | `#004999`  |
-| Text Blue           | `#003366`  |
-| White               | `#ffffff`  |
+| Color                          | Hex        |
+|--------------------------------|------------|
+| Background Header Footer       | `#3333cc`  |
+| Primary Background White       | `#ccffff`  |
+| Button Blue                    | `#24248f`  |
+| Text White                     | `#fffff`   |
+| Image background               | `#1f1f7a`  |
+|                                |            |
+|                                |            |  
+|                                |            |
 
 ---
 
 ## 🎨 Fonts
 
 The fonts Uses Sans-serif fonts to enhance readability and provide a clean look:
-- Primary Font: Arial, sans-serif
+- Primary Font: Roboto, sans-serif
+-Secod
 
 ## 📖 Usage
 
