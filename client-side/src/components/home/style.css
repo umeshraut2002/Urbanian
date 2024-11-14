@@ -255,7 +255,6 @@ nav {
 
 /* main section style is here */
 
-
 .section-heading {
   text-align: center;
   font-size: 2rem;
@@ -291,9 +290,6 @@ nav {
 
 /* animation */
 
-/* Basic Reset and Product Section Styles Remain the Same */
-
-/* High-Class Entrance Animation for Product Cards */
 .product-card {
   background-color: #fff;
   border-radius: 8px;
@@ -336,6 +332,7 @@ nav {
 }
 
 /* Image Zoom on Hover */
+
 .product-card:hover .product-image img {
   transform: scale(1.05);
   filter: brightness(1.1);
@@ -385,6 +382,7 @@ nav {
 }
 
 /* Price and Button Slide-in Animation */
+
 .product-price, .buy-now-btn {
   transition: transform 0.5s ease, opacity 0.5s ease;
   opacity: 0;
@@ -420,6 +418,7 @@ nav {
 }
 
 /* Add a Delay for Each Card for a Staggered Entrance */
+
 .product-card:nth-child(1) { animation-delay: 0.1s; }
 .product-card:nth-child(2) { animation-delay: 0.2s; }
 .product-card:nth-child(3) { animation-delay: 0.3s; }
