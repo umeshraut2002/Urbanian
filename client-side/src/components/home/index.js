@@ -31,3 +31,15 @@ document.addEventListener('DOMContentLoaded', () => {
   showSlide(currentSlide);  // Show the initial slide
   setInterval(autoSlide, 4000);  // Auto-slide every 4 seconds
 });
+
+
+// for the main section 
+
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.product-card');
+
+  cards.forEach((card, index) => {
+    card.style.transitionDelay = `${index * 50}ms`;
+    card.classList.add('appear');
+  });
+});
