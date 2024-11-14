@@ -417,14 +417,12 @@ nav {
   transform: scale(1.05);
 }
 
-/* Add a Delay for Each Card for a Staggered Entrance */
+/* for the delay */
 
 .product-card:nth-child(1) { animation-delay: 0.1s; }
 .product-card:nth-child(2) { animation-delay: 0.2s; }
 .product-card:nth-child(3) { animation-delay: 0.3s; }
 .product-card:nth-child(4) { animation-delay: 0.4s; }
-/* Repeat the delay for additional cards as needed */
-
 
 @keyframes entrance {
   0% {
@@ -456,3 +454,4 @@ nav {
     transform: scale(1) translateY(0);
   }
 }
+
