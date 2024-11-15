@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.my-orders-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-app-message {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.app-download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.download-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+    text-align: center;
+}
+
+.android-btn {
+    background-color: #34b7f1;
+    color: white;
+}
+
+.android-btn:hover {
+    background-color: #0a8cf7;
+}
+
+.ios-btn {
+    background-color: #007aff;
+    color: white;
+}
+
+.ios-btn:hover {
+    background-color: #005bb5;
+}
