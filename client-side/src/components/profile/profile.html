@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="/client-side/src/components/profile/profile.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="/client-side/Assets/banners/Leonardo_Phoenix_A_confident_stylish_young_Indian_man_with_a_1.jpg" alt="User Profile" class="profile-image">
+            <div class="profile-info">
+                <h2 class="user-name">John Doe</h2>
+                <p class="user-email">john.doe@example.com</p>
+            </div>
+        </div>
+
+        <div class="profile-actions">
+            <button class="action-btn" id="my-orders-btn">My Orders</button>
+            <button class="action-btn" id="delete-account-btn">Delete Account</button>
+        </div>
+
+        <div class="personal-info">
+            <h2>Personal Information</h2>
+            <p>Name: John Doe</p>
+            <p>Email: john.doe@example.com</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Address: 123 Main St, City, Country</p>
+            <button class="action-btn">Edit Details</button>
+        </div>
+
+        <div class="wishlist">
+            <h2>Wishlist/Favorites</h2>
+            <ul>
+                <li>Product 1 - <button class="add-to-cart-btn">Add to Cart</button></li>
+                <li>Product 2 - <button class="add-to-cart-btn">Add to Cart</button></li>
+                <li>Product 3 - <button class="add-to-cart-btn">Add to Cart</button></li>
+            </ul>
+        </div>
+
+        <div class="addresses">
+            <h2>Saved Addresses</h2>
+            <p>Address 1: 123 Main St, City, Country</p>
+            <button class="action-btn">Edit Address</button>
+            <button class="action-btn">Add New Address</button>
+        </div>
+
+        <div class="payment-methods">
+            <h2>Payment Methods</h2>
+            <p>Credit Card ending in 1234</p>
+            <button class="action-btn">Edit Payment Method</button>
+            <button class="action-btn">Add New Payment</button>
+        </div>
+
+        <div class="loyalty-points">
+            <h2>Loyalty Points/Rewards</h2>
+            <p>Points: 150</p>
+            <p>Available Discounts: 20% off on next purchase</p>
+        </div>
+
+        <div class="subscriptions">
+            <h2>Subscriptions and Notifications</h2>
+            <p>Email Notifications: Enabled</p>
+            <p>SMS Notifications: Disabled</p>
+            <button class="action-btn">Edit Subscriptions</button>
+        </div>
+
+        <div class="reviews">
+            <h2>Reviews and Ratings</h2>
+            <ul>
+                <li>Product 1: 5/5 - Excellent product!</li>
+                <li>Product 2: 4/5 - Good quality.</li>
+                <li>Product 3: 3/5 - Okay, could be improved.</li>
+            </ul>
+            <button class="action-btn">Add/Edit Review</button>
+        </div>
+
+        <div class="settings">
+            <h2>Settings</h2>
+            <button class="action-btn">Change Password</button>
+            <button class="action-btn">Privacy Settings</button>
+            <button class="action-btn">Deactivate Account</button>
+        </div>
+
+        <div class="customer-support">
+            <h2>Customer Support</h2>
+            <p>For assistance, please contact our <a href="#">Customer Support Team</a>.</p>
+            <p><a href="#">FAQs</a> | <a href="#">Support Tickets</a></p>
+        </div>
+
+        <div class="order-history" id="order-history">
+            <h2>My Orders</h2>
+            <ul>
+                <li>Order #12345 - <strong>$45.99</strong> - <span>Status: Delivered</span></li>
+                <li>Order #12346 - <strong>$32.50</strong> - <span>Status: In Progress</span></li>
+                <li>Order #12347 - <strong>$59.99</strong> - <span>Status: Shipped</span></li>
+            </ul>
+            <button class="back-btn" id="back-to-profile-btn">Back to Profile</button>
+        </div>
+    </div>
+
+    <script src="/client-side/src/components/profile/profile.js"></script>
+</body>
+</html>
