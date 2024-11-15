@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now - Product Page</title>
+    <link rel="stylesheet" href="/client-side/src/components/buynow/buynow.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product-section">
+            <h2>Product Details</h2>
+            <div class="product-details">
+                <img src="/client-side/Assets/banners/tshirts.webp" alt="Product Image">
+                <div class="product-info">
+                    <h3>Product Name</h3>
+                    <p class="price">$99.99</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="order-section">
+            <h2>Price Details</h2>
+            <div class="price-details">
+                <div class="quantity">
+                    <label>Quantity:</label>
+                    <input type="number" min="1" value="1" id="quantity">
+                </div>
+                <div class="price-breakdown">
+                    <p>Price: $99.99</p>
+                    <p>Discount: $10.00</p>
+                    <p><strong>Total Price: $89.99</strong></p>
+                </div>
+                <button class="continue-button">Continue</button>
+            </div>
+
+            <div class="address-section">
+                <p>Shipping Address:</p>
+                <p>123 Main St, City, Country</p>
+                <button class="change-address">Change</button>
+            </div>
+
+            <div class="order-status">
+                <div class="status-step active">1. Review</div>
+                <div class="status-step">2. Payment</div>
+                <div class="status-step">3. Confirmation</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
