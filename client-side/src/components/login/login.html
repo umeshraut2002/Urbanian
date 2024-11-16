@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In | E-Commerce</title>
+  <link rel="stylesheet" href="/client-side/src/components/login/login.css">
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="login-container">
+    <!-- Left Side -->
+    <div class="login-left">
+      <h1><i class="fas fa-user-lock"></i> Log In</h1>
+      <p>Access your account to explore amazing deals.</p>
+      <img src="/client-side/Assets/auth/login/log-in.png" alt="Login Illustration">
+    </div>
+
+    <!-- Right Side -->
+    <div class="login-right">
+      <form>
+        <label for="email-phone">
+          <i class="fas fa-envelope"></i> Enter Email or Phone Number
+        </label>
+        <div class="input-group">
+          <i class="fas fa-user-circle input-icon"></i>
+          <input type="text" id="email-phone" placeholder="Email or Phone">
+        </div>
+        <button type="button" class="request-otp-btn">
+          <i class="fas fa-paper-plane"></i> Request OTP
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
