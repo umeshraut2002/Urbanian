@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,7 @@
 body {
     background-color: #ccffff;
     color: #333;
+    overflow-x: hidden;
 }
 
 /* this is for the haeder */
@@ -33,13 +34,11 @@ header {
     margin: 0 auto;
 }
 
-.logo img {
+.logo h1 {
     width: 140px;
     transition: transform 0.3s ease;
-}
-
-.logo img:hover {
-    transform: scale(1.05);
+    font-family: cursive;
+    font-style: italic;
 }
 
 nav {
@@ -102,6 +101,7 @@ nav {
 .icons {
     display: flex;
     gap: 40px;
+    cursor: pointer;
 }
 
 .material-symbols-outlined {
