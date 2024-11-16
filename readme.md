@@ -138,10 +138,4 @@ This project is licensed under the MIT License.
 
 ---
 
-> Created with ❤️ by [Your Name](https://github.com/your-username)
-
---- 
-
-Enjoy coding and happy sliding! 🎉
-
---- 
+> Created with ❤️ by [Aporva Bhagat](https://github.com/your-username)
