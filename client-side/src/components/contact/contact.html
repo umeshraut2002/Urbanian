@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="/client-side/src/components/contact/contact.css">
+</head>
+<body>
+  <header class="contact-header">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Feel free to reach out anytime.</p>
+  </header>
+
+  <section class="contact-form">
+    <h2>Get in Touch</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="contact-details">
+    <h2>Contact Information</h2>
+    <p><strong>Email:</strong> <a href="mailto:info@ecommerce.com">info@ecommerce.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 234-567-890</a></p>
+    <p><strong>Address:</strong> 123 E-commerce St, Business City, BC 56789</p>
+  </section>
+
+  <section class="social-media">
+    <h2>Follow Us</h2>
+    <div class="social-icons">
+      <a href="#" target="_blank"><img src="/client-side/Assets/symbols/social/facebook.png" alt="Facebook"></a>
+      <a href="#" target="_blank"><img src="/client-side/Assets/symbols/social/twitter.png" alt="Twitter"></a>
+      <a href="#" target="_blank"><img src="/client-side/Assets/symbols/social/instagram.png" alt="Instagram"></a>
+      <a href="#" target="_blank"><img src="/client-side/Assets/symbols/social/linkedin.png" alt="LinkedIn"></a>
+    </div>
+  </section>
+</body>
+<script src="/client-side/src/components/contact/contact.js"></script>
+</html>
