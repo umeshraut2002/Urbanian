@@ -61,32 +61,6 @@ nav {
     color: #ffffff;
 }
 
-/* bottom nav item */
-
-.contain{
-  /* background-color: #1f1f7a; */
-  display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-.bottom-item{
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 15px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.bottom-item:hover{
-  background-color: #24248f;
-  color: #fff;
-}
-
 /* this is for the search  */
 
 .search-bar {
