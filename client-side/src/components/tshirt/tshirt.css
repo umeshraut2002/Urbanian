@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Shirt Header Container */
+.shirt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh; /* Set to half the viewport height */
+  padding: 20px;
+  background-color: #24248f;
+  color: white;
+  border-radius: 10px;
+  max-width: 100%;
+  width: 100%;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Left Side: Circular Image */
+.header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 5px solid white;
+}
+
+/* Right Side: Text */
+.header-text {
+  flex: 1;
+  text-align: left;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.header-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .shirt-header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .header-image {
+    margin-bottom: 20px;
+  }
+
+  .header-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-text p {
+    font-size: 1rem;
+  }
+}
