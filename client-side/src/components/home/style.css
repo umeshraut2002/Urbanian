@@ -250,6 +250,69 @@ nav {
 }
 
 
+/* Product Navigation Section */
+
+
+.product-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem; /* Space between each item */
+  margin: 20px 0; /* Add space above and below */
+  flex-wrap: wrap; /* Ensure responsiveness for smaller devices */
+}
+
+.product-nav-item {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.product-nav-item a {
+  text-decoration: none;
+  color: inherit; /* Keep text color consistent */
+}
+
+.product-icon {
+  width: 60px; /* Adjust size for icons */
+  height: 60px;
+  margin-bottom: 8px; /* Space between icon and text */
+}
+
+.product-nav-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.product-nav-item:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  color: #007bff; /* Change text color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-nav-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .product-nav-text {
+    font-size: 0.8rem;
+  }
+}
+
+
 /* main section style is here */
 
 .section-heading {
@@ -386,7 +449,8 @@ nav {
   transition: transform 0.5s ease, opacity 0.5s ease;
   opacity: 0;
   animation: slideInPrice 1s ease forwards;
-  animation-delay: 0.4s;
+  animation-delay: 0.4s; 
+  text-decoration: none;
 }
 
 @keyframes slideInPrice {
