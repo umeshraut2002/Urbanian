@@ -6,8 +6,65 @@
   <title>About Us | E-Commerce</title>
   <link rel="stylesheet" href="/client-side/src/components/about/about.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle,shopping_cart"
+    />
+
 </head>
 <body>
+  <!-- header section -->
+
+  <header>
+      <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+          <!-- <img src="" alt="Logo" /> -->
+          <h1>Urbanian</h1>
+        </div>
+
+        <!-- top nava bar -->
+        <nav>
+          <a href="/client-side/src/components/home/index.html" class="nav-item"
+            >Home</a
+          >
+          <a
+            href="/client-side/src/components/about/about.html"
+            class="nav-item"
+            >About</a
+          >
+          <a
+            href="/client-side/src/components/contact/contact.html"
+            class="nav-item"
+            >Contact</a
+          >
+        </nav>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <button>Search</button>
+        </div>
+
+        <div class="icons">
+          <div class="cart">
+            <span class="material-symbols-outlined">shopping_cart</span>
+            <span class="count">0</span>
+          </div>
+          <div class="profile">
+            <span class="material-symbols-outlined">account_circle</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  <!-- main section -->
+
   <div class="about-container">
     <!-- Brand Story Section -->
     <section class="brand-story">
