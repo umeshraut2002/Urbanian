@@ -1,6 +1,163 @@
 /* main header style and body */
 
+* {
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
+body {
+    background-color: #ccffff;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* this is for the haeder */
+
+header {
+    background-color: #3333cc; /* Dark blue */
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    width: 140px;
+    transition: transform 0.3s ease;
+    font-family: cursive;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #24248f;
+    color: #ffffff;
+}
+
+/* this is for the search  */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px; /* Sets max width for larger screens */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Centers the search bar */
+    overflow: hidden;
+}
+
+/* Input Field Styling */
+.search-bar input {
+    flex: 1;
+    border: none;
+    padding: 12px 15px;
+    font-size: 1em;
+    outline: none;
+}
+
+/* Search Button Styling */
+.search-bar button {
+    background-color: #3333cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #1f1f7a;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 28px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.material-symbols-outlined:hover {
+    transform: scale(1.1);
+}
+
+.cart, .profile {
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color: #ff4136;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8em;
+}
+
+@media (max-width: 992px) {
+    .search-bar {
+        width: 200px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav {
+        display: none; 
+    }
+
+    .icons {
+        gap: 10px;
+    }
+}
 
 /* bottom header style */
 
