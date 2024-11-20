@@ -275,6 +275,12 @@ nav {
   gap: 20px;
 }
 
+.awards-grid img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 /* CTA sctiiiom */
 .cta {
   text-align: center;
@@ -294,4 +300,164 @@ nav {
 .cta button:hover{
   background-color: #3333cc;
   color: white;
+}
+
+/* footer section */
+
+/* footer style */
+
+.footer {
+    background-color: #3333cc;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-logo {
+    width: 250px;
+    height: 250;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* Center Section Links */
+.footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+}
+
+.link-column a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.link-column a:hover {
+    color: #fff;
+}
+
+/* Right Section Contact Information */
+.footer-right h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+}
+
+.footer-right address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.social-icons a {
+    color: #ccc;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+/* Bottom Section */
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.payment-icons img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .link-column {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .payment-icons {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer-logo {
+        width: 80px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+    .social-icons a {
+        font-size: 16px;
+    }
 }
