@@ -248,22 +248,22 @@ nav {
 }
 
 .add-to-cart {
-    background-color: #ffa500;
+    background-color: #1f1f7a;
     color: #fff;
 }
 
 .add-to-cart:hover {
-    background-color: #e69500;
+    background-color: #3333cc;
     transform: translateY(-3px);
 }
 
 .buy-now {
-    background-color: #007bff;
+    background-color: #3333cc;
     color: #fff;
 }
 
 .buy-now:hover {
-    background-color: #0069d9;
+    background-color: #1f1f7a;
     transform: translateY(-3px);
 }
 
