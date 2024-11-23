@@ -1,39 +1,4 @@
-// hero section slider 
-
-// JavaScript for Auto-Sliding Multiple Slides with Text Animation
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-const slideContents = document.querySelectorAll('.slide-content');
-const totalSlides = slides.length;
-
-function showSlide(index) {
-  const sliderContainer = document.querySelector('.slider-container');
-  currentSlide = index;
-
-  // Move the slider container to show the correct slide
-  sliderContainer.style.transform = `translateX(-${index * 100}vw)`;
-
-  // Remove active class from all slide contents to reset animation
-  slideContents.forEach(content => content.classList.remove('active'));
-
-  // Add active class to current slide content to trigger animation
-  slideContents[index].classList.add('active');
-}
-
-// Auto-slide every 4 seconds
-function autoSlide() {
-  currentSlide = (currentSlide + 1) % totalSlides;  // Loop back to the first slide after the last
-  showSlide(currentSlide);
-}
-
-// Initialize the first slide and start the auto-slide
-document.addEventListener('DOMContentLoaded', () => {
-  showSlide(currentSlide);  // Show the initial slide
-  setInterval(autoSlide, 4000);  // Auto-slide every 4 seconds
-});
-
-
-// for the main section 
+// main section
 
 document.addEventListener('DOMContentLoaded', () => {
   const cards = document.querySelectorAll('.product-card');
@@ -41,5 +6,48 @@ document.addEventListener('DOMContentLoaded', () => {
   cards.forEach((card, index) => {
     card.style.transitionDelay = `${index * 50}ms`;
     card.classList.add('appear');
+  });
+});
+
+// Pop Up 
+document.addEventListener('DOMContentLoaded', () => {
+  const profileIcon = document.querySelector('.profile');
+  const popupMenu = document.querySelector('.popup-menu');
+  let hideTimeout;
+
+  // pop up for the user when click 
+  const showPopup = () => {
+    clearTimeout(hideTimeout); // Cancel any ongoing hide timer
+    popupMenu.style.display = 'block';
+  };
+
+  // stay pop up for the 5 6 seconds
+
+  const hidePopup = () => {
+    hideTimeout = setTimeout(() => {
+      popupMenu.style.display = 'none';
+    }, 5000); // 5000ms = 5 seconds
+  };
+
+  // show click or hover
+
+  profileIcon.addEventListener('mouseenter', showPopup);
+  profileIcon.addEventListener('click', (e) => {
+    e.stopPropagation(); // Prevent bubbling
+    showPopup();
+  });
+
+  // Start hide timer on mouseleave 
+
+  profileIcon.addEventListener('mouseleave', hidePopup);
+
+  //  Preventing the pop up
+
+  popupMenu.addEventListener('mouseenter', () => clearTimeout(hideTimeout));
+  popupMenu.addEventListener('mouseleave', hidePopup);
+
+  // Hide popup 
+  document.addEventListener('click', () => {
+    popupMenu.style.display = 'none';
   });
 });

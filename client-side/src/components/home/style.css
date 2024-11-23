@@ -129,6 +129,52 @@ nav {
     font-size: 0.8em;
 }
 
+/* pop up container  */
+
+/* Popup container styles */
+.popup-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #ccffff;
+  border: 1px solid #99ccff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 10px;
+  width: 150px;
+}
+
+/* Popup menu item styles */
+.popup-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-menu ul li {
+  padding: 8px 10px;
+}
+
+.popup-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.popup-menu ul li:hover {
+  background-color: #99ccff;
+  color: white;
+}
+
+/* Show popup on hover */
+.profile:hover .popup-menu {
+  display: block;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
 @media (max-width: 992px) {
     .search-bar {
         width: 200px;
