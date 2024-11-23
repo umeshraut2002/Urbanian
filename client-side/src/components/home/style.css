@@ -337,7 +337,7 @@ nav {
 
 .product-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
   transition: transform 0.5s ease, filter 0.3s ease;
 }
