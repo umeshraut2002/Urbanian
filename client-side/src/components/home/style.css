@@ -201,26 +201,6 @@ nav {
     }
 }
 
-
-/* hero section  */
-
-  .hero-section {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-banner img {
-  width: 100%;
-  max-width: 1200px; 
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 /* Product Navigation Section */
 
 
