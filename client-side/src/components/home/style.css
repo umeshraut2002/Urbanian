@@ -131,7 +131,6 @@ nav {
 
 /* pop up container  */
 
-/* Popup container styles */
 .popup-menu {
   display: none;
   position: absolute;
@@ -146,7 +145,6 @@ nav {
   width: 150px;
 }
 
-/* Popup menu item styles */
 .popup-menu ul {
   list-style: none;
   margin: 0;
@@ -164,11 +162,10 @@ nav {
 }
 
 .popup-menu ul li:hover {
-  background-color: #99ccff;
+  background-color: #99cc;
   color: white;
 }
 
-/* Show popup on hover */
 .profile:hover .popup-menu {
   display: block;
 }
