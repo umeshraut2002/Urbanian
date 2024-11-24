@@ -61,12 +61,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
   const productPages = {
+    // for the shirts
+
     shirt: "/client-side/src/components/shirt/shirt.html",
+    shirts: "/client-side/src/components/shirt/shirt.html",
+    mensshirt: "/client-side/src/components/shirt/shirt.html",
+    
+
+
     tshirt: "/client-side/src/components/tshirt/tshirt.html",
     shoes: "/client-side/src/components/shoes/shoes.html",
     trousers: "/client-side/src/components/trousers/trousers.html",
     hoodies: "/client-side/src/components/hoodies/hoodies.html",
   };
+
+
 
   // Search function
   const handleSearch = () => {
