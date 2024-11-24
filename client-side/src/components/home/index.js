@@ -76,33 +76,42 @@ document.addEventListener("DOMContentLoaded", () => {
     menstshirts: "/client-side/src/components/tshirt/tshirt.html", 
     
 
-
+    // for the shoes page namibg xonvention
     shoes: "/client-side/src/components/shoes/shoes.html",
-    trousers: "/client-side/src/components/trousers/trousers.html",
-    hoodies: "/client-side/src/components/hoodies/hoodies.html",
+    sportshoes: "/client-side/src/components/shoes/shoes.html",
+    casualshoes: "/client-side/src/components/shoes/shoes.html",
+    sneakers: "/client-side/src/components/shoes/shoes.html",
+
+    // for the troussers 
+    trousers: "/client-side/src/components/troussers/troussers.html",
+    toussers: "/client-side/src/components/troussers/troussers.html",
+    pant: "/client-side/src/components/troussers/troussers.html",
+    pants: "/client-side/src/components/troussers/troussers.html",
+
+    // for the hoodies 
+    hoodies: "/client-side/src/components/hoodies/hoodie.html",
+    hoodie: "/client-side/src/components/hoodies/hoodie.html",
+
   };
 
 
 
   // Search function
   const handleSearch = () => {
-    const query = searchInput.value.trim().toLowerCase(); // Clean and format user input
+    const query = searchInput.value.trim().toLowerCase();
 
     if (productPages[query]) {
-      // Navigate to the respective product page
       window.location.href = productPages[query];
     } else {
-      // Show an error message if the product is not found
+
       alert(
         "Product not found. Please search for 'shirt', 'tshirt', 'shoes', 'trousers', or 'hoodies'."
       );
     }
   };
 
-  // Add event listener for the "Search" button
   searchButton.addEventListener("click", handleSearch);
 
-  // Add event listener for the "Enter" key in the input field
   searchInput.addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
       handleSearch();
