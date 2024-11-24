@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Start hide timer on mouseleave 
 
+  
   profileIcon.addEventListener('mouseleave', hidePopup);
 
   //  Preventing the pop up
@@ -54,43 +55,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // input search for the categories 
 
-document.addEventListener('DOMContentLoaded', () => {
-  const searchInput = document.getElementById('product-search');
-  const searchButton = document.getElementById('search-button');
+document.addEventListener("DOMContentLoaded", () => {
+  const searchInput = document.getElementById("search-input");
+  const searchButton = document.getElementById("search-btn");
 
-  // Define the mapping of product names to their respective pages
+  
   const productPages = {
-    shirt: '/client-side/src/components/products/shirt.html',
-    tshirt: '/client-side/src/components/products/tshirt.html',
-    shoes: '/client-side/src/components/products/shoes.html',
-    trousers: '/client-side/src/components/products/trousers.html',
-    hoodies: '/client-side/src/components/products/hoodies.html',
+    shirt: "/client-side/src/components/shirt/shirt.html",
+    tshirt: "/client-side/src/components/tshirt/tshirt.html",
+    shoes: "/client-side/src/components/shoes/shoes.html",
+    trousers: "/client-side/src/components/trousers/trousers.html",
+    hoodies: "/client-side/src/components/hoodies/hoodies.html",
   };
 
-  // Function to handle navigation based on search
-  const handleSearch = (event) => {
-    event.preventDefault(); // Prevent default button behavior
+  // Search function
+  const handleSearch = () => {
+    const query = searchInput.value.trim().toLowerCase(); // Clean and format user input
 
-    const query = searchInput.value.trim().toLowerCase(); // Get and sanitize input
-
-    if (query in productPages) {
-      // Navigate to the corresponding product page
+    if (productPages[query]) {
+      // Navigate to the respective product page
       window.location.href = productPages[query];
     } else {
-      // Alert user if no match found
+      // Show an error message if the product is not found
       alert(
-        'Product not found. Please search for one of the following: shirt, tshirt, shoes, trousers, or hoodies.'
+        "Product not found. Please search for 'shirt', 'tshirt', 'shoes', 'trousers', or 'hoodies'."
       );
     }
   };
 
-  // Attach click event listener to the search button
-  searchButton.addEventListener('click', handleSearch);
+  // Add event listener for the "Search" button
+  searchButton.addEventListener("click", handleSearch);
 
-  // Add "Enter" key functionality for the search bar
-  searchInput.addEventListener('keypress', (event) => {
-    if (event.key === 'Enter') {
-      handleSearch(event);
+  // Add event listener for the "Enter" key in the input field
+  searchInput.addEventListener("keypress", (event) => {
+    if (event.key === "Enter") {
+      handleSearch();
     }
   });
 });
