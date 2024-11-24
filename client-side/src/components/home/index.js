@@ -66,10 +66,17 @@ document.addEventListener("DOMContentLoaded", () => {
     shirt: "/client-side/src/components/shirt/shirt.html",
     shirts: "/client-side/src/components/shirt/shirt.html",
     mensshirt: "/client-side/src/components/shirt/shirt.html",
+
+
+    // for the t shirt 
+
+    tshirt: "/client-side/src/components/tshirt/tshirt.html",
+    tshirts: "/client-side/src/components/tshirt/tshirt.html",
+    tshirtsformens: "/client-side/src/components/tshirt/tshirt.html",
+    menstshirts: "/client-side/src/components/tshirt/tshirt.html", 
     
 
 
-    tshirt: "/client-side/src/components/tshirt/tshirt.html",
     shoes: "/client-side/src/components/shoes/shoes.html",
     trousers: "/client-side/src/components/trousers/trousers.html",
     hoodies: "/client-side/src/components/hoodies/hoodies.html",
