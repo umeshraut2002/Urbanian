@@ -42,12 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
   profileIcon.addEventListener('mouseleave', hidePopup);
 
-  //  Preventing the pop up
-
   popupMenu.addEventListener('mouseenter', () => clearTimeout(hideTimeout));
   popupMenu.addEventListener('mouseleave', hidePopup);
 
-  // Hide popup 
   document.addEventListener('click', () => {
     popupMenu.style.display = 'none';
   });
