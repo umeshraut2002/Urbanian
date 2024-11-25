@@ -1,15 +1,14 @@
 # 🛍️ Urbanian - E-commerce Platform
 
-Welcome to **Urbanian**, a modern, full-stack e-commerce platform designed to provide a seamless online shopping experience. Built with **HTML**, **CSS**, and **JavaScript** on the front end and powered by **AWS Cloud** for scalable and reliable back-end infrastructure, Urbanian offers a sleek and dynamic interface for users to browse products, add items to their cart, and proceed to order with ease.
+Welcome to Urbanian, a modern, full-stack e-commerce platform designed to provide a seamless online shopping experience. Built with HTML, CSS, and JavaScript on the front end and powered by AWS Cloud for scalable and reliable back-end infrastructure, Urbanian offers a sleek and dynamic interface for users to browse products, add items to their cart, and proceed to order with ease.
 
 ## 🎉 About Urbanian
 
-Urbanian is more than just an online store – it’s an e-commerce solution that focuses on simplicity, responsiveness, and a user-centered shopping experience. The platform combines powerful technology with a clean design, ensuring that users can explore, select, and purchase products without any hassle. Developed with scalability in mind, Urbanian leverages **AWS Cloud** to support high traffic volumes and fast, secure transactions.
+Urbanian is more than just an online store – it’s an e-commerce solution that focuses on simplicity, responsiveness, and a user-centered shopping experience. The platform combines powerful technology with a clean design, ensuring that users can explore, select, and purchase products without any hassle. Developed with scalability in mind, Urbanian leverages AWS Cloud to support high traffic volumes and fast, secure transactions.
 
 ## 🔑 Key Features
 
 - Product Browsing: Explore a variety of products in different categories with high-quality images and descriptions.
-- Add to Cart: A smooth and intuitive add-to-cart functionality that lets users review their selected items.
 - Order Processing: Seamlessly proceed to order, with secure checkout and payment processing.
 - Responsive Design: Optimized for all devices, providing an engaging experience on desktop, tablet, and mobile.
 - Cloud Integration: AWS services ensure reliability, data security, and scalability.
@@ -26,11 +25,8 @@ Urbanian is more than just an online store – it’s an e-commerce solution tha
 ## 📋 How It Works
 
 1. Browse Products: Users can view products with images, descriptions, and prices.
-2. Add to Cart: Add items to a virtual cart, view cart contents, and update quantities.
-3. Checkout: Proceed to a streamlined checkout process where orders can be reviewed and completed securely.
-4. Order Confirmation: After checkout, users receive an order confirmation, with options to view order history.
-
----
+2. Checkout: Proceed to a streamlined checkout process where orders can be reviewed and completed securely.
+3. Order Confirmation: After checkout, users receive an order confirmation, with options to view order history.
 
 ## 🚀 Get Started
 
@@ -40,19 +36,16 @@ Urbanian is ideal for developers interested in creating an e-commerce platform t
 2. Set up the necessary AWS services for back-end functionality.
 3. Customize the front end to add your own products and styling.
 
-> **Note**: This project is currently under development, with plans to expand features, such as user authentication and personalized recommendations.
-
----
+> Note: This project is currently under development, with plans to expand features, such as user authentication and personalized recommendations.
 
 Urbanian is an ongoing project with plans for future growth, including additional features, security enhancements, and optimized performance. We welcome contributions and feedback from the community!
 
-> Created by [Your Name](https://github.com/your-username) with ❤️ for modern online shopping
+> Created by [Apoorva Bhagat](https://github.com/your-username) with ❤️ for modern online shopping
 
 ## 🚀 Features
 
 - 🎨 Full-Screen Layout: Utilizes the full viewport for maximum impact.
 - 🖼️ Animated Image and Text: Engaging animations for a polished look.
-- ⚡ Auto-Slide Transition: Automatically rotates between slides every 4 seconds.
 - 🎯 Modern, Minimalist Design: Blue and white theme with smooth animations.
 
 ## 📸 Screenshots
