@@ -52,8 +52,8 @@ Urbanian is an ongoing project with plans for future growth, including additiona
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Slide 1](/client-side/Assets/screenshots/home.jpg) | *Image and animated text on the first slide* |
-| ![Slide 2](./assets/screenshot2.png) | *Animated content transition to the second slide* |
+| ![Slide 1](/client-side/Assets/screenshots/home.jpg) | home page image and icons |
+| ![Slide 2](/client-side/Assets/screenshots/cart%20.jpg) | about page |
 
 
 ## 📂 Project Structure
