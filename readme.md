@@ -52,7 +52,7 @@ Urbanian is an ongoing project with plans for future growth, including additiona
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Slide 1](./assets/screenshot1.png) | *Image and animated text on the first slide* |
+| ![Slide 1](/client-side/Assets/screenshots/home.jpg) | *Image and animated text on the first slide* |
 | ![Slide 2](./assets/screenshot2.png) | *Animated content transition to the second slide* |
 
 
