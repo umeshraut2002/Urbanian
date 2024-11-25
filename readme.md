@@ -57,13 +57,14 @@ Urbanian is an ongoing project with plans for future growth, including additiona
 | ![Slide 1](/client-side/Assets/screenshots/hoodie.jpg) | hoodie page image and icons |
 | ![Slide 2](/client-side/Assets/screenshots/shirt.jpg.jpg) | shirt page |
 | ![Slide 1](/client-side/Assets/screenshots/trousser.jpg) | trousser page image and icons |
+| ![Slide 2](/client-side/Assets/screenshots/shoes.jpg) | shoes page |
 | ![Slide 2](/client-side/Assets/screenshots/tshirt.jpg) | t shirt page |
 | ![Slide 1](/client-side/Assets/screenshots/cart%20.jpg) | cart page image and icons |
 | ![Slide 2](/client-side/Assets/screenshots/profile.jpg) | profile page |
 | ![Slide 1](/client-side/Assets/screenshots/product_in.jpg) | product inner page for the multiple options |
 | ![Slide 2](/client-side/Assets/screenshots/login.jpg) | log in page |
 | ![Slide 1](/client-side/Assets/screenshots/signup.jpg) | signup page |
-| ![Slide 2](/client-side/Assets/screenshots/about.jpg) | about page |
+| ![Slide 2](/client-side/Assets/screenshots/footer%20.jpg) | footer |
 
 
 
