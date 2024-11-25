@@ -80,10 +80,10 @@ document.addEventListener("DOMContentLoaded", () => {
     sneakers: "/client-side/src/components/shoes/shoes.html",
 
     // for the troussers 
-    trousers: "/client-side/src/components/troussers/troussers.html",
-    toussers: "/client-side/src/components/troussers/troussers.html",
-    pant: "/client-side/src/components/troussers/troussers.html",
-    pants: "/client-side/src/components/troussers/troussers.html",
+    trousers: "/client-side/src/components/troussers/trousser.html",
+    toussers: "/client-side/src/components/troussers/trousser.html",
+    pant: "/client-side/src/components/troussers/trousser.html",
+    pants: "/client-side/src/components/troussers/trousser.html",
 
     // for the hoodies 
     hoodies: "/client-side/src/components/hoodies/hoodie.html",
