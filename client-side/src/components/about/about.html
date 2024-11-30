@@ -23,46 +23,45 @@
   <!-- header section -->
 
   <header>
-      <div class="container">
-        <!-- Logo Section -->
-        <div class="logo">
-          <!-- <img src="" alt="Logo" /> -->
-          <h1>Urbanian</h1>
+    <div class="container">
+      <!-- Logo Section -->
+      <div class="logo">
+        <!-- <img src="" alt="Logo" /> -->
+        <h1>Urbanian</h1>
+      </div>
+
+      <!-- top nav bar -->
+      <nav>
+        <a href="/client-side/src/components/home/index.html" class="nav-item">Home</a>
+        <a href="/client-side/src/components/about/about.html" class="nav-item">About</a>
+        <a href="/client-side/src/components/profile/profile.html" class="nav-item">Profile</a>
+      </nav>
+
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search..." />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div class="icons">
+        <div class="cart">
+          <a href="/client-side/src/components/cart/cart.html"><span
+              class="material-symbols-outlined">shopping_cart</span></a>
+          <span class="count">0</span>
         </div>
-
-        <!-- top nava bar -->
-        <nav>
-          <a href="/client-side/src/components/home/index.html" class="nav-item"
-            >Home</a
-          >
-          <a
-            href="/client-side/src/components/about/about.html"
-            class="nav-item"
-            >About</a
-          >
-          <a
-            href="/client-side/src/components/profile/profile.html"
-            class="nav-item"
-            >Profile</a
-          >
-        </nav>
-
-        <div class="search-bar">
-          <input type="text" placeholder="Search..." />
-          <button>Search</button>
-        </div>
-
-        <div class="icons">
-          <div class="cart">
-            <span class="material-symbols-outlined">shopping_cart</span>
-            <span class="count">0</span>
-          </div>
-          <div class="profile">
+        <div class="profile">
+          <a href="/client-side/src/components/login/login.html">
             <span class="material-symbols-outlined">account_circle</span>
+          </a>
+          <div class="popup-menu">
+            <ul>
+              <li><a href="/client-side/src/components/login/login.html">Log In</a></li>
+              <li><a href="/client-side/src/components/signup/signup.html">Sign Up</a></li>
+              <li><a href="/client-side/src/components/profile/profile.html">Profile</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </header>
+  </header>
 
   <!-- main section -->
 
@@ -269,5 +268,4 @@
 
   </div>
 </body>
-<script src="/client-side/src/components/about/about.js"
 </html>
