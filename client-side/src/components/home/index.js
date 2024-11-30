@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to display error message
   const showError = () => {
     alert(
-      "Product not found. Please search for 'shirt', 'tshirt', 'shoes', 'trousers', or 'hoodies'."
+      "Product not found. "
     );
   };
 
