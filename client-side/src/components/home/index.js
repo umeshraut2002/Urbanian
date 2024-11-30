@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to display error message
   const showError = () => {
     alert(
-      "Product not found. "
+      "Product not found."
     );
   };
 
