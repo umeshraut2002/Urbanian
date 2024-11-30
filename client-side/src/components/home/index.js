@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchButton = document.getElementById("search-btn");
 
   const productPages = {
-    // for the shirts
+
     shirt: "/client-side/src/components/shirt/shirt.html",
     shirts: "/client-side/src/components/shirt/shirt.html",
     mensshirt: "/client-side/src/components/shirt/shirt.html",
@@ -68,13 +68,15 @@ document.addEventListener("DOMContentLoaded", () => {
     PlainShirts: "/client-side/src/components/shirt/shirt.html",
     CheckShirt: "/client-side/src/components/shirt/shirt.html",
     CheckShirts: "/client-side/src/components/shirt/shirt.html",
-    
 
-
-    // for the t shirt
     tshirt: "/client-side/src/components/tshirt/tshirt.html",
     tshirts: "/client-side/src/components/tshirt/tshirt.html",
+    Tshirt: "/client-side/src/componqents/tshirt/tshirt.html",
+    Tshirt: "/client-side/src/components/tshirt/tshirt.html",
     tshirtsformens: "/client-side/src/components/tshirt/tshirt.html",
+    MensTShirt: "/client-side/src/components/tshirt/tshirt.html",
+    MenTShirt: "/client-side/src/components/tshirt/tshirt.html",
+    BlackTShirt: "/client-side/src/components/tshirt/tshirt.html",
     menstshirts: "/client-side/src/components/tshirt/tshirt.html",
 
     // for the shoes page naming convention
