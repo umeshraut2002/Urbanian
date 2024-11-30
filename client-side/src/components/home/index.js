@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // for the hoodies
     hoodies: "/client-side/src/components/hoodies/hoodie.html",
     hoodie: "/client-side/src/components/hoodies/hoodie.html",
+    hoodiewinter: "/client-side/src/components/hoodies/hoodie.html",
   };
 
   // Function to display error message
