@@ -62,8 +62,14 @@ document.addEventListener("DOMContentLoaded", () => {
     shirts: "/client-side/src/components/shirt/shirt.html",
     mensshirt: "/client-side/src/components/shirt/shirt.html",
     Shirt: "/client-side/src/components/shirt/shirt.html",
-    shirts: "/client-side/src/components/shirt/shirt.html", 
+    Shirts: "/client-side/src/components/shirt/shirt.html", 
+    plainshirt: "/client-side/src/components/shirt/shirt.html",
+    Plainshirt: "/client-side/src/components/shirt/shirt.html",
+    PlainShirts: "/client-side/src/components/shirt/shirt.html",
+    CheckShirt: "/client-side/src/components/shirt/shirt.html",
+    CheckShirts: "/client-side/src/components/shirt/shirt.html",
     
+
 
     // for the t shirt
     tshirt: "/client-side/src/components/tshirt/tshirt.html",
